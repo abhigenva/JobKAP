@@ -1,0 +1,103 @@
+.variantStandingmalePeepSta {
+  height: 1001.5px;
+  width: 460px;
+  position: absolute;
+  margin: 0 !important;
+  top: -100.5px;
+  left: 64px;
+  z-index: 1;
+}
+.frameChild {
+  width: 1440px;
+  height: 901px;
+  position: relative;
+  border-radius: var(--br-131xl) 0 var(--br-131xl) 0;
+  background: linear-gradient(113.58deg, #094cf8, rgba(17, 45, 118, 0));
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.rectangleParent,
+.yourPathTo {
+  box-sizing: border-box;
+  display: flex;
+  max-width: 100%;
+}
+.yourPathTo {
+  margin: 0;
+  width: 947px;
+  height: 170px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding-left: var(--padding-xl);
+  z-index: 2;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-131xl) 0 var(--br-131xl) 0;
+  background: linear-gradient(113.58deg, #094cf8, rgba(17, 45, 118, 0));
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 167px var(--padding-lgi) 17px;
+  gap: 263px;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-jua);
+}
+.desktop1,
+.pathToCareerSuccessTitle {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.pathToCareerSuccessTitle {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.desktop1 {
+  width: 100%;
+  background-color: var(--primary-contrast);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  gap: 13px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .yourPathTo {
+    font-size: 51px;
+  }
+  .rectangleParent {
+    gap: 131px 263px;
+    padding-top: 109px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rectangleParent {
+    gap: 66px 263px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourPathTo {
+    font-size: var(--font-size-19xl);
+  }
+  .rectangleParent {
+    padding-top: 71px;
+    box-sizing: border-box;
+  }
+}

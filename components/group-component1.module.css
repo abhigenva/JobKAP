@@ -1,0 +1,125 @@
+.frameChild {
+  height: 150px;
+  width: 1300px;
+  position: relative;
+  border-radius: var(--br-81xl) 0 var(--br-81xl) 0;
+  background-color: var(--primary-contrast);
+  display: none;
+  max-width: 100%;
+}
+.seniorSoftwareEngineer {
+  width: 273px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.seniorSoftwareEngineerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-29xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  height: 55px;
+  position: relative;
+  color: var(--color-dimgray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent {
+  width: 887px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.frameItem {
+  height: 50px;
+  width: 160px;
+  position: relative;
+  border-radius: var(--br-16xl) 0 var(--br-16xl) 0;
+  background-color: var(--color-steelblue);
+  display: none;
+}
+.knowMore {
+  height: 46px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-16xl) 0 var(--br-16xl) 0;
+  background-color: var(--color-steelblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-lg) var(--padding-10xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  width: 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+  font-size: var(--font-size-xl);
+  color: var(--primary-contrast);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-81xl) 0 var(--br-81xl) 0;
+  background-color: var(--primary-contrast);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-64xl) var(--padding-20xl)
+    var(--padding-32xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-jua);
+}
+@media screen and (max-width: 1350px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .seniorSoftwareEngineer {
+    font-size: var(--font-size-lgi);
+  }
+  .seniorSoftwareEngineerWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lgi);
+  }
+}
